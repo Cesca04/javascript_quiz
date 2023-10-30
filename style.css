@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.h {
+  height: 70vh !important;
+}
+
+
+/* global font */
+.open-sans{
+  font-family: 'Open Sans', sans-serif !important;  
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif !important;
+  
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.raleway{
+  font-family: 'Raleway', sans-serif !important;
+}
+.garamond{
+  font-family: 'EB Garamond', serif !important;
+}
+
+
+
+/* global color */
+
+
+
+.pri-bg-col{
+  background-color: whitesmoke !important;
+}
+
+.sec-text-col{
+  color: #124265 !important;
+}
+
+

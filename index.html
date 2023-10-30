@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javaScript Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <!-- google-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;0,800;1,400;1,500;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="pri-bg-col open-sans">
+    <header>
+      <div class=" ">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+            <div class="container">
+              <a class="navbar-brand fw-bolder garamond fs-1 fst-italic sec-text-col" href="./home.html">javaScript Quiz</a>
+              <div class="d-flex justify-content-center" >
+                <ul class="navbar-nav mx-lg-5 mb-2 mb-lg-0 gap-lg-5 raleway fw-bold ">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-3 garamond sec-text-col" aria-current="page" href="./index.html">Assessment</a>
+                  </li>
+                </ul> 
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header> 
+    <section class="container pt-5">
+      <h1 class="text-center garamond fw-bolder display-3 sec-text-col pt-5 mt-5">JavaScript Quiz</h1>
+        <div class="question-container pt-5 ">
+          <div class="bg-white shadow outline-o p-5">
+            <p id="question-count" class="text-center fs-4 raleway"></p>
+            <p id="question" class="poppins fs-2"></p>
+            <form action="" id="options_form" class="fs-2 poppins">
+              <label for="options" > <input type="radio" name="option" value="0" id="options" class="fs-2"> <span id="option0"></span></label>
+            </form>
+            <div class="py-4 text-center">
+              <button type="button" id="submit_button" class="btn garamond rounded-5 bg-black py-2 px-5 text-white fs-4">Submit</button>
+            </div>
+          </div>
+          <div class="result-container container">
+            <div class="d-flex justify-content-center gap-4 bg-white shadow mt-5 p-5">
+              <p class="raleway fst-italic fw-bold fs-2" >Status:</p>
+              <p id="result" class="poppins fs-2"> </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="footer" class="mt-5">
+        <!-- Footer Start -->
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-lg-6 mb-2 " >
+              <h1 class="fw-bold garamond display-5 mb-4 ">For more <i class="fw-lighter">javaScript Quiz.</i></h1>
+              <h4 class="raleway mb-3  w-lg-75 t">10% off your first order when you sign up for our assessment-free and spam-free emails.</h4>
+            </div>
+            <div class="col-lg-6 mb-2 pt-5 text-md-center " >
+              <span class="pt-5 w-100 mb-5 " >
+                <input type="text" placeholder="Enter email address" class="px-3 py-2 w-50 garamond me-4 border-0"><button class="px-4 py-2 text-white bg-black">Subscribe</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class=" px-3 border border-black border-1 opacity-25 mb-5 mt-3"></div>
+         <div class="container text-center">
+          <h2 class="raleway fs-5">© 2023 Quiz. All Rights Reserved.</h2>
+          <a href=" " class="text-decoration-none text-black mb-1">hello@javascriptquiz.com</a>
+          <div class=" raleway d-flex justify-content-between align-items-center my-5">
+            <a href="" class="text-decoration-none text-black"><p>Privacy policy</p></a>
+            <a href="" class="text-decoration-none text-black"><p>Terms of Service</p></a>
+            <a href="" class="text-decoration-none text-black"><p>Quiz policy</p></a>
+          </div>
+         </div>
+        <!-- Footer End -->
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
