@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary: #4294e3;
-  --secondary: rgb(66, 6, 6);
-  --light: #f0f6ff;
-  --dark: #262b47;
-}
 
 .h {
   height: 70vh !important;
