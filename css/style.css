@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #4294e3;
+  --secondary: rgb(66, 6, 6);
+  --light: #f0f6ff;
+  --dark: #262b47;
+}
+
 .h {
   height: 70vh !important;
 }
@@ -44,6 +51,8 @@
   color: #124265 !important;
 }
 
-.submit_button:hover{
-  background-color: skyblue;
+.submit {
+  transition: 0.5s;
 }
+
+

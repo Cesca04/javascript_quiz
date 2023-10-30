@@ -87,7 +87,7 @@ function displayQuestion(){
   let html = ""
 //here for each element in the option object, we are getting the element and its index
   current.options.forEach((option, index) => {
-    html += `<label for="options"><input type="radio" name="option" value="${option}" id="user-input"  style="height:20px; width:20px; vertical-align: middle;">  <span id="option${index}">${option}</span></label> <br/>`
+    html += `<label for="options"><input type="radio" name="option" value="${option}" id="user-input" style="height:20px; width:20px; vertical-align: middle;">    <span id="option${index}">${option}</span></label> <br/>`
   });
 
   //replacing #option-form with our content of html that we have interated over
